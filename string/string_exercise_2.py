@@ -6,7 +6,7 @@ print(string[0])
 # จงเขียนคำสั่งเพื่อแสดง "best" ของข้อความ "I am the best programmer"
 print(string[9:13])
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ที่ไม่มี space
-print(string.strip())
+print(string.replace(" ", ""))
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ให้เป็นตัวพิมใหญ่ทั้งหมด
 print(string.upper())
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ให้เป็นตัวพิมเล็กทั้งหมด
